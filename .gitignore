@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+myenv/
+
+# Environment
+.env
+
+# Database
+*.db
+*.sqlite3
+data/*.db
+
+# Logs
+logs/
+*.log
+
+# Generated Exports
+data/exports/
+
+# Screenshots
+!data/screenshots/demo/*.png
+!data/screenshots/demo/*.png
+!data/screenshots/demo/*.png
+
+# Test artefacts
+.pytest_cache/
+.coverage
+htmlcov/
+*.xml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Temporary Files
+*.tmp
+*.bak
+*.cache
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+node_modules/
